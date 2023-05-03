@@ -48,7 +48,9 @@ Edit pages/index.js and see the updated result in your browser
 
 ## How Next.js works
 
-- When we run npm run dev it move to pages folder inside pages folder  it will looks for _app.js file in that file 
+- When we run npm run dev it move to pages folder inside pages folder  it will looks for _app.js file in that file the App component will takes others component as props here App component is a higher order component because it takes other component has a props and inside App component other component wil be declared and we are able to see in UI This how Next js Render 
+
+
 
 
 
