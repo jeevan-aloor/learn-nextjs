@@ -52,8 +52,11 @@ Edit pages/index.js and see the updated result in your browser
 
 
 
-
-
+## Routing 
+- if we create about.js file inside pages folder  it automatically creates about route --> /about
+- if we create profile.js file inside pages folder  it automatically creates profile route --> /profile
+- if we create blog folder inside pages folder than we create firstblog page inside blog folder it creates router like this --> /blog/firstblog
+- if we create blog folder inside pages folder than we create secondblog page inside blog folder it creates router like this --> /blog/secondblog
 
 
 
