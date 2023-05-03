@@ -62,7 +62,9 @@ Edit pages/index.js and see the updated result in your browser
 ### Single product page Routes create
 - Example i want all products page first soo in side product folder we have to create one index.js whenever we hit /product it render index.js file and we able to see all products in ui. 
 - after we want only single product page soo here we have to use [productid].js file it represent whenver if anything is present in after /product/1 like this it will render [productid].js file and able to see single products.
-
+- then extract that id using useRouter from 'next/router' it will provide id of the perticular products.
+- 
+ ### User clicks Routes 
 
 
 
