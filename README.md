@@ -69,7 +69,7 @@ Edit pages/index.js and see the updated result in your browser
  - Then declare the Link component where we want and Link component takes href as a parameter we have to provide routes here like this 
   <Link href="/blog">Blog</Link>
   
-  ### Navigation 
+  ### Navigate
   
   - using useRouter able to achive navigate like 
   - const router=useRouter()
