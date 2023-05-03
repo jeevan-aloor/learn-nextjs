@@ -64,7 +64,17 @@ Edit pages/index.js and see the updated result in your browser
 - after we want only single product page soo here we have to use [productid].js file it represent whenver if anything is present in after /product/1 like this it will render [productid].js file and able to see single products.
 - then extract that id using useRouter from 'next/router' it will provide id of the perticular products.
 - 
- ### User clicks Routes 
+ ### Using Link component
+ - whenever using Link first we have to import Link from  'next/link 
+ - Then declare the Link component where we want and Link component takes href as a parameter we have to provide routes here like this 
+  <Link href="/blog">Blog</Link>
+  
+  ### Navigation 
+  
+  - using useRouter able to achive navigate like 
+  - const router=useRouter()
+  - router.push('/blog')
+  - it will directly navigate to blog page when we click any button.
 
 
 
