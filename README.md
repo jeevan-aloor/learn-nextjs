@@ -42,9 +42,6 @@ or
 ### pnpm dev 
 
 to start the development server on 
-### http://localhost:3000
-Visit http://localhost:3000 to view your application
-Edit pages/index.js and see the updated result in your browser
 
 ## How Next.js works
 
