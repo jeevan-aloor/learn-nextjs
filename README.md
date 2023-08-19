@@ -74,6 +74,30 @@ to start the development server on
   - it will directly navigate to blog page when we click any button.
 
 
+### Data Fetching in Next.js
 
+- using getStaticProps async function we have to decare outside of component and export that function .
+- then where we have to want that getStaticProps we have to takes as a props and using the data and
+- it must return some data.
+  
 
+### Pre Rendering 
 
+- some html contents are renderd previously in build time so it makes fucntionality speed.
+
+### Static Generation
+
+- it means some static html docs are automaticaly running. and it will rendered more speed
+
+### Pages and Components
+
+- inside pages whatever we create we can navigate using route
+- and component means it will create some component and we can extract that comonent and import wherever we need .
+
+### getStaticPaths
+
+- getStaticPaths means define some paths usning paths object.
+
+### Fallback
+
+- fallback is a boolean values using thise we can show some loader and achive timelaps
